@@ -9,10 +9,12 @@
   "keywords": [],
   "license": "ISC",
   "devDependencies": {
+    "aws-cdk": "^2.126.0",
     "serverless-iam-roles-per-function": "^3.2.0"
   },
   "dependencies": {
     "@aws-sdk/client-dynamodb": "^3.511.0",
-    "@aws-sdk/util-dynamodb": "^3.511.0"
+    "@aws-sdk/util-dynamodb": "^3.511.0",
+    "aws-cdk-lib": "^2.126.0"
   }
 }
