@@ -12,9 +12,6 @@ jobs:
     name: Deploy Dynamo CRUD API
     runs-on: ubuntu-latest
     steps:
-      - name: Initiated by User
-        run: each $GITHUB_ACTOR
-
       - name: Check Out Code
         uses: actions/checkout@v3.1.0
 
