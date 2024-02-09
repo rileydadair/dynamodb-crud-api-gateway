@@ -23,6 +23,7 @@ jobs:
       - run: npm ci
       - name: Install Plugin and Deploy
         uses: serverless/github-action@v3.2
+        working-directory: .
         with:
           args: -c "serverless plugin install --name serverless-iam-roles-per-function && serverless deploy"
           entrypoint: /bin/sh
